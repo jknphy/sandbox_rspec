@@ -1,2 +1,2 @@
-#!/usr/bin/ruby
-puts 'Hello, world!'
+#!/usr/bin/env ruby
+puts 'Welcome to rspec overview session.'
