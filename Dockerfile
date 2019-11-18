@@ -13,4 +13,7 @@ RUN bundle install --path ./.vendor/bundler
 
 RUN bundle exec rspec --init
 
+RUN echo "--color" >> .rspec
+RUN echo "--format documentation" >> .rspec
+
 CMD ["./hello.rb"]
